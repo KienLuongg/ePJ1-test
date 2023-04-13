@@ -1,0 +1,23 @@
+.about_us{
+    padding-top: 4rem;
+    height: 46rem;
+}
+.img_about_us{
+    /*border: gold 1px solid;*/
+    background-image: url("../imgAboutUs/2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cotchia_about_us{
+    /*border: #0f5132 1px solid;*/
+    background: #c3b7d5;
+}
+.text_about_us{
+    /*border: red 1px solid;*/
+    padding-top: 8rem;
+}
+.company_story{
+    margin-bottom: 20px;
+}

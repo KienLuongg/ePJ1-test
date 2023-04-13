@@ -1,0 +1,89 @@
+.gallery_body{
+    padding-top: 4rem;
+    text-align: center;
+    width: 100%;
+    font-family: Arial;
+
+}
+.intro_gallery{
+    height: 40%;
+    width: 100%;
+    /*border: black 1px solid;*/
+    justify-content: center;
+
+}
+.header_gallery{
+    padding-top: 3rem;
+    height: 50%;
+    /*font-weight: bolder;*/
+    /*font-size: 96px;*/
+    width: 50%;
+    border-bottom: black 2px solid;
+
+}
+.text_gallery{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.something_about_gallery{
+    width: 51%;
+    padding-top: 10px;
+}
+.img_in_gallery{
+    /*border: #6a1a21 1px solid;*/
+    height: 18rem;
+    margin-top: 20px
+;
+}
+.gallery_img{
+    /*width: 90%;*/
+    /*margin: auto;*/
+}
+.anh1{
+    background-image: url("../imgGallery/donghodatnhat_7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh2{
+    background-image: url("../imgGallery/chiec-dong-ho-cua-trinh-xuan-thanh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh3{
+    background-image: url("../imgGallery/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh4{
+    background-image: url("../imgGallery/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh5{
+    background-image: url("../imgGallery/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh6{
+    background-image: url("../imgGallery/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh7{
+        background-image: url("../imgGallery/7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.anh8{
+    background-image: url("../imgGallery/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,40 @@
+.policyBox{
+    padding-top: 4rem;
+    /*display: flex;*/
+    justify-content: center;
+    text-align: center;
+    height: 52rem;
+    background-image: url("../imgAboutUs/—Pngtree—quartz watch promotion season atmospheric_1047997.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inside_policyBox{
+    height: 30rem;
+}
+.policyHeader{
+    margin: 4rem auto 4rem auto;
+    color: rgba(255, 255, 255, 0.9);
+    width: 50%;
+}
+.baohanhBox{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: rgba(200, 212, 217, 0.57) 2px solid;
+}
+.vanchuyenBox{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: rgba(200, 212, 217, 0.57) 2px solid;
+}
+.doitraBox{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: rgba(200, 212, 217, 0.57) 2px solid;
+}
+.chinhsachHeader{
+    margin-bottom: 20px;
+}

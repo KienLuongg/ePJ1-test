@@ -1,0 +1,139 @@
+.bodyTech{
+    padding-top: 4rem;
+    width: 100%;
+    height: auto;
+
+}
+.firstTech{
+    height: 46rem;
+    /*border: #0c4128 2px  solid;*/
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),
+            url("../imgTech/Seiko-Prospex-LX-SNR035J-1640510028156.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: 0% 35%;*/
+    display: flex;
+}
+.info_firstTech{
+    max-width: 400px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.nameFirstTech{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    /*border: white 1px solid;*/
+    font-weight: 550;
+}
+.logoFirstTech{
+    height: 40px;
+    width: 60px;
+}
+.detail_info_1{
+    /*border: #0dcaf0 1px solid;*/
+    color: white;
+}
+.detailButton{
+    margin-top: 20px;
+}
+.secondTech{
+    height: 600px;
+    /*border: #6a1a21 2px solid;*/
+    width: 1435px;
+}
+.secondTech_img{
+    /*border: #0b5ed7 1px solid;*/
+    display: flex;
+}
+.secondTech_img_box{
+    /*border: #0c4128 1px solid;*/
+    height: 80%;
+    width: 70%;
+    margin: auto !important;
+}
+.lo{
+    /*border: #6f42c1 1px solid;*/
+    height: 50%;
+}
+.detailSecondTech{
+    height: 80%;
+}
+.detailSecondTech_content{
+    margin-top: 90px !important;
+}
+.logoSecondTech{
+    height: 100%;
+    margin-top: 10px !important;
+    padding: 60px 0 0 110px !important;
+}
+.thirdTech{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),
+    url("../imgTech/hublot_wall.jpg");
+    height: 720px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.third_TechBoxContent{
+    /*border: #0dcaf0 1px solid;*/
+    height: 70%;
+    width: 40%;
+    margin: 70px 0 0 40px;
+    background: linear-gradient( rgba(250, 249, 249, 0.1), rgba(248, 247, 247, 0)) ;
+    color: white;
+}
+.tech_modal{
+    max-width: 850px;
+}
+.img_1st_modal_tech{
+    background-image: url("../imgTech/modal1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img_1st_modal_tech:hover{
+    background-image: url("../imgTech/modal12.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img_2nd_modal_tech{
+    background-image: url("../imgTech/modal2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img_2nd_modal_tech:hover{
+    background-image: url("../imgTech/modal22.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img_3rd_modal_tech{
+    background-image: url("../imgTech/modal3.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img_3rd_modal_tech:hover{
+    background-image: url("../imgTech/modal32.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.insideModalTech{
+    height: 100%;
+}
+.detailsanpham{
+    height: 80%;
+}
+.nutmua{
+    text-align: center;
+}

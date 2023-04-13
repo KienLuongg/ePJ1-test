@@ -1,0 +1,46 @@
+.contact_us_site{
+    padding-top: 4rem;
+    height: 46rem;
+    background-image: url("../imgContactUs/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.contact_us_{
+    width: 100%;
+    height: 100%;
+}
+.inside_contact_us{
+    width: 1299px;
+    height: 395px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: rgba(33, 44, 47, 0.55) 1px solid;
+}
+
+.img_contact_us{
+    background-image: url("../imgContactUs/wear-watch-on-non-dominant-wrist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 395px;
+}
+.text_contact_us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url("../imgContactUs/nencaro1.png");
+    padding-right: 0;
+    height: 395px;
+}
+.map_site{
+    padding-right: 0;
+    padding-left: 0;
+    height: 395px;
+}
+.header_contact{
+    color: black;
+}
+.contact_{
+    font-size: 20px;
+    text-decoration: black blink;
+}

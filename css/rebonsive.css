@@ -1,0 +1,123 @@
+@media (max-width: 390px) {
+    #menucha{
+        display: block;
+    }
+    #narba{
+        display: none;
+    }
+    #logo{
+        /*display: none;*/
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .cmtTestimo{
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    #menucha{
+        display: block;
+    }
+    #napba4{
+        display: none;
+    }
+
+    .mobilemenu{
+        display: block;
+        text-align: right;
+        width: 33.333%;
+    }
+
+    .sumenh1{
+        height: 25%;
+    }
+
+    #noibat1{
+        justify-content: space-around;
+    }
+
+    .animatio{
+        right: 300px;
+    }
+    .cmtTestimo{
+        display: none;
+    }
+
+
+}
+@media (min-width: 576px)
+{
+    .cmtTestimo{
+        width: auto;
+    }
+}
+.logo{
+    background: rgba(139, 49, 49, 0);
+    height: 100%;
+    width: 55%;
+}
+.img_logo{
+    width: 100%;
+    height:100%;
+    background-image: url("../img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+
+.searchBar{
+    width: 124%;
+}
+.ft1{
+    padding-left: 5%;
+    padding-bottom: 0;
+}
+.ftkt{
+    padding-left: 5%;
+}
+.ftkt1{
+    padding-left: 5%;
+}
+#ft{
+    width: 100%;
+    border-top: rgba(49, 59, 63, 0.22) 1px solid;
+    margin-left: 0;
+}
+.optionsHeader:hover{
+    color: #6a1a21;
+}
+.soLui{
+    width: 70px !important;
+}
+.soTien{
+    width: 70px !important;
+}
+.bodyTech{
+    margin: 0;
+}
+.contact_us_{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.img_contact_us{
+    padding-right: 0;
+}
+.tabcontent{
+    /*width: 29%;*/
+    height: 445px;
+    /*margin: 15px 2% 25px 2%;*/
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+.tabcontent:hover{
+    color: #6a1a21;
+    transform: scale(1.08);
+}

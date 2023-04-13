@@ -1,0 +1,1031 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+}
+
+#narba{
+    display: flex;
+    width: 100%;
+    /*padding: 0.2rem;*/
+    height: 4rem;
+    position: fixed;
+    z-index: 3;
+    background: white;
+    border-bottom: rgba(61, 74, 80, 0.11) 1px solid;
+    box-shadow: #4f5050 0 0 20px 0;
+    /*margin-bottom:64px;*/
+}
+#napba4{
+    margin: auto;
+}
+
+#menucha{
+    display: flex;
+    width: 33.333%;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0);
+    margin-bottom: 0;
+
+}
+ #menucha li{
+     margin: 0.1rem;
+     /*position: relative;*/
+ }
+
+ #snapbacha{
+     position: relative;
+ }
+ .meuchild1{
+     position: absolute;
+     top: 100%;
+     width: 100%;
+     left: 0;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     flex-wrap: wrap;
+     opacity: 0;
+     visibility: hidden;
+     transition: 0.25s linear;
+     border-top: #3e474d 1px solid;
+     border-bottom: #3e474d 1px solid;
+ }
+
+ #menucha li a{
+     color: black;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 0.9rem;
+     display: block;
+     padding-top:1rem;
+     padding-bottom: 1rem;
+     padding-left: 2rem;
+ }
+
+ .menuchilditem{
+     width: 20%;
+     background-color: rgb(255, 255, 255);
+     height: auto;
+ }
+.menuchildlist{
+    padding: 0;
+}
+ .menuchilditem a{
+     font-size: 1.4rem;
+     padding: 10px;
+     border-bottom: dotted 1px #545050;
+     margin-right: 15px;
+     /*text-align: center;*/
+ }
+
+.menuChildBrand{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.multiChoice{
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .menuitem:hover .meuchild1{
+     opacity: 1;
+     visibility: visible;
+ }
+
+ .menuitem1:hover .meuchild1{
+     opacity: 1;
+     visibility: visible;
+ }
+
+.menuitem2:hover .meuchild1{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+#logo{
+    padding-top: 7px;
+    margin: 0 auto 0 auto;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.narba{
+    font-size: 1.3rem;
+    width: 33.333%;
+
+}
+
+#gihang {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+#gihang i{
+    margin: 0.5rem;
+}
+
+.mobilemenu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    width: 100%;
+}
+
+.mobilemenu i{
+    margin: 0.5rem;
+}
+
+
+
+
+.homePage{
+    width: 100%;
+    height: auto;
+}
+
+
+#mainn{
+    padding:6px;
+    padding-top: 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: #1a1e21 1px solid;
+    border-top:  #1a1e21 1px solid;
+}
+
+.mainnb img{
+    height: 356px;
+    width: 352px;
+    padding: 5px;
+    -webkit-filter: brightness(50%);
+}
+
+.mainnb{
+    position: relative;
+}
+
+.nb{
+    /*position: absolute;*/
+    color: white;
+    z-index: 1;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.mba{
+    position: absolute;
+    border: solid 1px white;
+    z-index: 2;
+    width: 330px;
+    height: 334px;
+    top: 3%;
+    left: 3%;
+
+}
+.brandName{
+    font-size: 2rem;
+}
+
+#noibat {
+    text-align: center;
+    padding-top: 1%;
+
+}
+#noibat h3{
+    margin-bottom: 1%;
+    padding-bottom: 0.6%;
+    border-bottom: #1a1e21 solid 1px;
+    width: 500px;
+}
+.bestBrand{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.bg1{
+    background-image: url("../img/dong-ho-mido-600x600-1637743936700.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bg2{
+    background-image: url("../img/Dong-ho-nam-SRWATCH-SG10051.1202PL-trang-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg3{
+    background-image: url("../img/Dy12861.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg4{
+    background-image: url("../img/EcG0ty1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.iem{
+    width: 320px;
+    height: 282px;
+    border-radius: 5px;
+    /*margin: 10px;*/
+    /*position: relative;*/
+    transition: 0.5s;
+    /*background: rgba(26, 30, 33, 0.99);*/
+}
+
+.iem:hover{
+    opacity: 0.95;
+    transform: scale(1.1);
+
+}
+
+.noibatTag{
+    text-decoration: none;
+}
+
+#noibat1{
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*margin: 1px;*/
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.insideBg{
+    width: 100%;
+    height: 100%;
+}
+.brandName2{
+    text-decoration: none;
+}
+.tdh{
+    color: white;
+    margin: 70% auto 0 auto;
+}
+
+#spnb h3{
+    margin-bottom: 1%;
+    padding-bottom: 0.6%;
+    border-bottom: #332604 solid 1px;
+    width: 500px;
+}
+#spnb{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#bnsp2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#img11:hover{
+    background-image: url("../img/SAG00001S0-B-3-1628151797990.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img11{
+    background-image: url("../img/SAG00001S0-B-1-1628151790726.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img12:hover{
+    background-image: url("../img/A168WG-9W-3-1641956927954.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img12{
+    background-image: url("../img/A168WG-9W-2-1641956926392.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img13:hover{
+    background-image: url("../img/Casio-MTP-VT01L-2B-3-1635995158376.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img13{
+    background-image: url("../img/Casio-MTP-VT01L-2B-1-1635995155249.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img14:hover{
+    background-image: url("../img/B640WGG-9-1-1639385462121.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img14{
+    background-image: url("../img/B640WGG-9DF-2-1640761713020.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img15:hover{
+    background-image: url("../img/dong-ho-orient-caballero-fag00003b0-cl2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img15{
+    background-image: url("../img/dong-ho-orient-caballero-fag00003b0-cl1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img16:hover{
+    background-image: url("../img/LA680WA-7-3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+}
+
+#img16{
+    background-image: url("../img/LA680WA-7-6.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+
+}
+
+#img17{
+    background-image: url("../img/Orient-FAG00003W0-1-1633056442026.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.3s ease;
+
+}
+
+#img17:hover{
+    transform: scale(1.03);
+}
+
+.bnim{
+    overflow: hidden;
+    padding: 10px;
+}
+
+#img18{
+    background-image: url("../img/dong-ho-orient-caballero-fag00004d0-cl1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 323px;
+    width: 323px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.3s ease;
+
+}
+
+#img18:hover{
+    transform: scale(1.03);
+}
+
+.itnb1{
+    border-bottom: dotted 1px gainsboro ;
+    margin-bottom: 20px;
+}
+
+
+.animatio{
+    position: relative ;
+    right: 400px;
+    bottom: 200px;
+}
+
+.animatio h1{
+    font-size: 80px;
+}
+
+#sumenh{
+    background-image: url("../img/kXlaoig.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    background-attachment: fixed;
+
+}
+
+.sumenh1{
+    position: relative;
+    background-color: white;
+    width: 30%;
+    left: 50px;
+    top: 50px;
+    height: 325px;
+
+}
+
+.sumenh2{
+    padding: 40px;
+    border: solid 1px black;
+    background-color: white;
+    margin: 10px;
+    position: absolute;
+}
+
+.sumenh2 h5{
+    padding-bottom: 10px;
+}
+
+.sumenh2 p{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+#anhcs1{
+    background-image: url("../img/FD9KGmE.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+#anhcs2{
+    background-image: url("../img/XgXVzFv.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+#anhcs3{
+    background-image: url("../img/ulGPJVW.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 445px;
+
+}
+
+.anhcs{
+  border-radius: 7px;
+}
+
+#chinhsach{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#testimonial{
+    background-color: #f2f2f2;
+}
+
+.testimo1{
+    height: 100%;
+    min-height: 221px;
+    position: relative;
+    background-color: white;
+    width: 421px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 1px 2px 1px #2d373d;
+}
+
+.testimo1 span{
+    color: darkred;
+}
+
+.testimo1 .rvsanpham{
+    color: #616b71;
+    font-size: 15px;
+    margin: 50px 0 20px;
+    padding: 0 20px;
+    height: 68px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimo2 img{
+    width: 355px;
+    height: 195px;
+    position: absolute;
+    left: 2rem;
+    bottom: 12rem;
+    /*border: #1a1e21 1px solid;*/
+    /*box-shadow: 0 3px 5px 3px #394c59;*/
+}
+
+
+#testimonial1{
+    display: flex;
+    padding-top:  12rem;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+#canha{
+    text-align: center;
+    padding: 30px;
+}
+
+#ft{
+    display: flex;
+    justify-content: start;
+    clear: both;
+    text-decoration: none;
+    font-weight: inherit;
+    font-size: 15px;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+.ft1 h5{
+    font-size: 1.25rem;
+}
+
+.ft1 ul{
+    padding: 0;
+}
+
+.ft1 ul li{
+    margin-top: 5%;
+    margin-right: 10px;
+}
+.ft1 a{
+    text-decoration: none;
+}
+
+.ft1{
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+.ftkt{
+    border-top: #1a1e21 2px solid;
+}
+
+.ftkt i{
+  padding: 20px;
+}
+
+.tbol {
+    background-color: #51a700;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin-right: 2px;
+    width: 10px;
+}
+
+.price{
+    margin: 10px;
+}
+
+.money:hover{
+    color: red;
+}
+.ttcs{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ttqc{
+    margin-bottom: 15px;
+}
+
+
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.btt{
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+
+}
+
+
+
+.bta {
+    border: none;
+    background: darkred;
+    background: linear-gradient(0deg, darkred, darkred 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.bta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.bta:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.bta:hover{
+    opacity: .7;
+}
+.bta:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, .2),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+.mobilemenu {
+    display: none;
+}
+
+.ma {
+    background-color: darkred;
+    animation-name: example;
+    animation-duration: 4s;
+    opacity:1;
+}
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.model{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+.han{
+  display: flex;
+  flex-direction: column;
+}
+
+.han img{
+    width: 82px;
+    height: 82px;
+    margin: 10px;
+}
+
+.model2 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../imgProduct/casio1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.model1{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.model3 h5{
+    font-size: 15px;
+}
+
+.model3{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mdl3{
+    padding: 0.5rem;
+}
+
+.model3 i{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+.model22 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../imgProduct/casio2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md11{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model23 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../img/A168WG-9W-2-1641956897967.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md13{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model24 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../imgProduct/casio4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md14{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model25 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../imgProduct/casiobe1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md15{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+.model26 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../img/LA680WA-7-1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md16 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model27 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../img/Orient-FAG00003W0-1-1633056413601.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md17 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.model28 {
+    width: 485px;
+    height: 487px;
+    margin: 10px;
+    background-image: url("../img/dong-ho-orient-caballero-fag00004d0_5-ims.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.md18 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+
+
+
+.count{
+    font-size: larger;
+    font-family: Arial;
+    height: 100%;
+    justify-content: center;
+    padding-top: 15px;
+}
+.info_sp{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
